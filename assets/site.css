@@ -52,4 +52,4 @@ a.lk{color:inherit;text-decoration:none}a.lk:hover .item>span:last-child,a.lk:ho
 .ilista a{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:8px;text-decoration:none;color:var(--ink)}.ilista a:hover{background:var(--soft)}
 .ilista small{color:var(--mut)}.idet-top{display:flex;gap:14px;align-items:center}.idet-top img{width:48px;height:48px;image-rendering:pixelated}
 .idet h2{margin:0}.tags{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.tags span{background:var(--soft);border-radius:999px;padding:2px 10px;font-size:13px}
-ul.cols{columns:2 220px}#idet{scroll-margin-top:96px}
+ul.cols{columns:2 220px}.abertura{border-left:4px solid var(--acc);padding:6px 0 6px 18px;margin:18px 0;font-size:17px;line-height:1.7}.abertura p{margin:0 0 12px}.abertura .assina{font-weight:700;font-size:19px}ol.perguntas li{margin:6px 0;font-size:16px}#idet{scroll-margin-top:96px}
