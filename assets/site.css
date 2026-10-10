@@ -41,6 +41,7 @@ table.regras th{width:150px;color:var(--ink)}.tipo{font-size:12px;font-weight:70
 .navpg{display:flex;justify-content:space-between;gap:10px;margin:34px 0 0;border-top:1px solid var(--line);padding-top:16px}.navpg a{text-decoration:none;font-weight:600}
 footer{max-width:1080px;margin:0 auto;padding:10px 16px 40px;color:var(--mut);font-size:13px}
 .ic{width:32px;height:32px;flex:none;image-rendering:auto;border-radius:6px;background:var(--soft)}.item{display:flex;align-items:center;gap:8px;margin:2px 0}
+li .item,p .item{display:inline-flex;vertical-align:middle;gap:5px;margin:0 2px}li .item .ic,p .item .ic{width:22px;height:22px}
 table.equip td{min-width:150px}ul.skills{list-style:none;padding:0}ul.skills li{display:flex;gap:10px;align-items:center;margin:8px 0}
 figure.mapa{margin:6px 0 10px}figure.mapa img{width:100%;height:auto;border-radius:14px;border:1px solid var(--line);display:block}
 @media (max-width:860px){.topo .in{flex-wrap:wrap}.abrir{display:block}nav.menu{display:none;width:100%;flex-direction:column}nav.menu.on{display:flex}

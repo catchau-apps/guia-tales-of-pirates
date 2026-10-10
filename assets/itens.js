@@ -20,10 +20,11 @@ function detalhe(){
   const mob=(f.mob||[]).sort((a,b)=>b[2]-a[2]).slice(0,25).map(([n,lv,ch,onde])=>`<li><b>${esc(n)}</b> <span class="mut">(nível ${lv})</span> — ${ch}% por morte${onde.length?' · '+onde.map(esc).join(', '):' · <span class="mut">local fora das tabelas de spawn (evento/dungeon)</span>'}</li>`);
   const loja=(f.loja||[]).slice(0,12).map(([aba,p,pr])=>`<li>Aba <b>${esc(aba)}</b>: ${esc(p)} — ${fmt(pr)} gold</li>`);
   const mis=(f.missao||[]).map(([n,g,mp])=>`<li>Missão <b>${esc(n)}</b>${g?' — '+esc(g)+' ('+esc(mp)+')':''}</li>`);
-  const nada=!(npc.length||mob.length||loja.length||mis.length);
+  const out=(f.outro||[]).slice(0,15).map(t=>`<li>${esc(t)}</li>`);
+  const nada=!(npc.length||mob.length||loja.length||mis.length||out.length);
   d.innerHTML=`<div class="idet"><div class="idet-top">${i.ic?`<img src="assets/icones/${i.ic}.png" alt="">`:''}<div><h2>${esc(i.n)}</h2><div class="tags">${tags}</div></div></div>
   ${i.d?`<p>${esc(i.d)}</p>`:''}${i.e?`<p><b>Efeito:</b> ${esc(i.e)}</p>`:''}${st}
-  <h2>Onde conseguir</h2>${bloco('Vende em NPC',npc)}${bloco('Cai de monstro',mob)}${bloco('Store (gold)',loja)}${bloco('Recompensa de missão',mis)}
+  <h2>Onde conseguir</h2>${bloco('Vende em NPC',npc)}${bloco('Cai de monstro',mob)}${bloco('Store (gold)',loja)}${bloco('Recompensa de missão',mis)}${bloco('Baú, caixa ou especial',out)}
   ${nada?'<p class="mut">Sem origem fixa nas tabelas (evento, forja, combinação ou item especial).</p>':''}
   <p class="mut">${i.v?'Vende ao NPC por '+fmt(i.v)+' gold. ':''}Chance de drop já com a taxa 3x do servidor, sem bônus de fada ou de grupo. ID ${i.id}.</p></div>`;
   d.hidden=false;d.scrollIntoView({behavior:'smooth',block:'start'});document.title=i.n+' · Itens';
