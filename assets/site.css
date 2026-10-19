@@ -106,7 +106,7 @@ kbd{font:600 12px/1 ui-monospace,Consolas,monospace;padding:3px 6px;border:1px s
 dl.ficha{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;margin:8px 0}dl.ficha dt{color:var(--mut);font-size:13.5px;font-weight:600}dl.ficha dd{margin:0}
 ol.etapas{padding-left:22px}ol.etapas li{margin:9px 0}
 ol.linha{list-style:none;padding:0;margin:10px 0;border-left:2px solid var(--line)}ol.linha li{display:grid;grid-template-columns:76px 1fr;gap:10px;padding:10px 0 10px 16px;position:relative;margin:0}
-ol.linha li::before{content:"";position:absolute;left:-7px;top:16px;width:12px;height:12px;border-radius:99px;background:var(--card);border:3px solid var(--acc)}.nv{font-weight:800;color:var(--acc)}
+ol.linha li::before{content:"";position:absolute;left:-7px;top:16px;width:12px;height:12px;border-radius:99px;background:var(--card);border:3px solid var(--acc)}.nv{font-weight:800;color:var(--acc)}.mq{display:block;font-size:14px;margin-top:3px}.mq>b:first-child{color:var(--mut);font-weight:650}
 .tag{display:inline-block;font-size:12.5px;font-weight:650;padding:2px 9px;border-radius:99px;background:var(--acc-soft);color:var(--acc);white-space:nowrap}
 /* tabelas */
 .tabela{overflow-x:auto;border:1px solid var(--line);border-radius:12px;margin:10px 0;background:var(--card)}
