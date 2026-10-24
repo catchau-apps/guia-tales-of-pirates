@@ -45,7 +45,8 @@ const SIN=[['banco','bank','vault','banker','cofre','deposito','armazem','bancar
  ['renascimento','rebirth','phoenix','reencarnar'],['classe','profissao','class','job'],['dropa','drop','cai','dropar','loot'],['monstro','mob','monster','bicho','inimigo'],
  ['hexathlon','hexa','pappa'],['diaria','daily','diario','recompensa'],['coleta','coletar','minerar','pescar','cortar','madeira','minerio','peixe'],
  ['taxa','custo','preco','custa','cobra','fee','price'],
- ['farmar','farm','render','rende','lucro'],['chat','!','comandos']];
+ ['farmar','farm','render','rende','lucro'],
+ ['remoto','remota','remotamente','distancia','longe','anywhere'],['chat','!','comandos']];
 const palavras=s=>sem(s).replace(/[^a-z0-9]+/g,' ').trim().split(' ').filter(Boolean);
 const SUF=['amentos','imentos','amento','imento','adoras','adores','adora','ador','mente','ancia','encia','acoes','icoes','istas','ista','aveis','iveis',
  'avel','ivel','ando','endo','indo','aram','eram','iram','avam','ados','idos','adas','idas','ado','ido','ada','ida','coes','cao','oes','ao','ar','er','ir',
