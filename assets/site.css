@@ -126,7 +126,7 @@ table.regras th{width:150px;color:var(--ink);background:none;font-size:14.5px;wh
 .navpg a:hover{border-color:var(--acc)}.navpg small{display:block;color:var(--mut);font-weight:500;font-size:12.5px}.navpg .prox{justify-content:flex-end;text-align:right;grid-column:2}.navpg .i{color:var(--acc)}
 footer{padding:26px 0 0;color:var(--mut);font-size:13px}
 .ic{width:32px;height:32px;flex:none;image-rendering:auto;border-radius:6px;background:var(--soft)}.item{display:flex;align-items:center;gap:8px;margin:2px 0}
-li .item,p .item,td .item{display:inline-flex;vertical-align:middle;gap:5px;margin:0 2px}li .item .ic,p .item .ic{width:22px;height:22px}
+li .item,p .item,td .item{display:inline-flex;vertical-align:middle;gap:5px;margin:0 2px}small.acd{display:block;margin:0 0 6px;font-size:.78rem;line-height:1.35}li .item .ic,p .item .ic{width:22px;height:22px}
 table.equip td{min-width:150px}ul.skills{list-style:none;padding:0}ul.skills li{display:flex;gap:10px;align-items:center;margin:8px 0}
 figure.mapa{margin:6px 0 10px}figure.mapa img{width:100%;height:auto;border-radius:var(--r);border:1px solid var(--line);display:block}
 /* celular e tablet */
